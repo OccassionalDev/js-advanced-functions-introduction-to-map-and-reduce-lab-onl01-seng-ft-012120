@@ -1,5 +1,5 @@
 // Your code here
 
 function mapToNegativize(array) {
-  return array.map(*-1)
+  return array.map((){})
 }
