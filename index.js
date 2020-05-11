@@ -25,3 +25,13 @@ function mapToDouble(array) {
   
   return newArray;
 }
+
+function mapToSquare(array) {
+  let newArray = [];
+  
+  for (let i = 0; i < array.length; i++) {
+    newArray.push(array[i]*array[i]);
+  }
+  
+  return newArray;
+}
