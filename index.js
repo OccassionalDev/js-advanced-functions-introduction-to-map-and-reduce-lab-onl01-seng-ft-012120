@@ -45,3 +45,7 @@ function reduceToTotal(array, start=0) {
   
   return total;
 }
+
+function reduceToAllTrue(array) {
+  
+}
