@@ -35,3 +35,13 @@ function mapToSquare(array) {
   
   return newArray;
 }
+
+function reduceToTotal(array, start) {
+  let total = 0;
+  
+  for (let i = start; i < array.length; i++) {
+    total += array[i];
+  }
+  
+  return total;
+}
